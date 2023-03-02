@@ -28,4 +28,22 @@ Here are the results of the multi-linear regression that predicts mpg:
  * Design specs for MechaCar suspension coils says variance of suspension coils must not exceed 100 pounds per square inch. Overall the variance of suspension coil PSI is 62 lbs per sq inch, which is under the 100 lbs/inch^2 threshhold. However, we have broken the data to show summary stats for each Manufacturing lot. The variance of coils' PSI in lots 1 & 2 are comfortably under the threshhold, but the variance of coil PSI in lot 3 is 170 which is exceeds the 100 lbs/inches^2 threshhold. 
  --- 
  
- 
+## T-Tests on Suspension Coils
+ * The mean PSI across all manufacturing lots compared to the population mean of 1500 is 1498.78 lbs/inch^2. This mean is NOT statistically different from the pop'n mean of 1500 since the p-value of 0.4533 is not lower than the common significance level of 0.05. Please see below
+
+![Deliverable_3_AllPSI_vs_1500.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_3_AllPSI_vs_1500.PNG)
+
+ * Lot1 PSI mean is exactly the same as the pop'n mean (1500 lbs/inch^2). Lot2 PSI mean is NOT statistically different from the pop'n mean as the pvalue is much higher than the 0.05 significance threshhold. Lot 3 mean PSI is statistically different (lower) from the pop'n mean since the pvalue is below 0.05 (0.04168).
+
+ Lot1 vs Population Mean:
+![Deliverable_3_Lot1_v_1500.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_3_Lot1_v_1500.PNG)
+
+
+ Lot2 vs Population Mean:
+![Deliverable_3_Lot2_v_1500.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_3_Lot2_v_1500.PNG)
+
+
+ Lot3 vs Population Mean:
+![Deliverable_3_Lot3_v_1500.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_3_Lot3_v_1500.PNG)
+
+ --- 
