@@ -16,9 +16,9 @@ Here are the results of the multi-linear regression that predicts mpg:
  
  ## Summary Statistics on Suspension Coils
  Below are tables showing summary stats of the PSI in the Suspension_Coil.csv
-
+ Overall:
 ![Deliverable_2_total_summary.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_2_total_summary.PNG)
-
+ Broken by each Manufacturing Lot:
 ![Deliverable_2_lot_summary.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_2_lot_summary.PNG)
 
  * Design specs for MechaCar suspension coils says variance of suspension coils must not exceed 100 pounds per square inch. Overall the variance of suspension coil PSI is 62 lbs per sq inch, which is under the 100 lbs/inch^2 threshhold. However, we have broken the data to show summary stats for each Manufacturing lot. The variance of coils' PSI in lots 1 & 2 are comfortably under the threshhold, but the variance of coil PSI in lot 3 is 170 which is exceeds the 100 lbs/inches^2 threshhold. 
