@@ -47,3 +47,15 @@ Here are the results of the multi-linear regression that predicts mpg:
 ![Deliverable_3_Lot3_v_1500.png](https://github.com/tylerwe19/Mod_16_R_Challenge/blob/main/Deliverable_3_Lot3_v_1500.PNG)
 
  --- 
+
+ ## Study Design: MechaCar vs Competition
+
+ In this study I would first create a multi-linear regression observing various variables (cost, mpg, horse power, maintenance cost, safety rating) impact on profits. This linear model would be based on data across the industry not just between a couple brands of cars because the purpose of this 1st analysis is to determine which variables significantly impact profits. We'll do this by seeing which variables' pvalues are below the 0.05 significance threshhold.
+ 
+ After using a multi-linear regression to see which variables significantly impact profits, I would collect data on the variables from Mechacar and their competitor(s). For example, if the multi-linear regression told me mpg and horsepower significantly impact profits, I would then run two two-sample t-tests for mpg and horsepower. My hypothesis would be MechaCar's mean mpg is higher than their competitors mean mpg and Mechar's mean horsepower is higher than their competitor's mean hp. 
+ 
+ The null hypothesis would MechaCar's mean mpg is not statistically different from their competitor's mpg and the alternative hypothesis would be MechaCar's mean mpg is statistically different from their competitor's mpg. I would have the same hypotheses for other variables the multi-linear regression showed as having a significant impact on profits.
+ 
+ In summary I would collect data across the industry and run a multi-linear regression comparing multiple variables' effect on profits. I would identify the variables that significantly impact profits and collect more data from MechaCar and their competitor(s) on these variables. I would then conduct a two-sample test for each variable comparing MechaCar's mean variable (ex. mpg) to their competitor's mean. I hope this analysis would help MechaCar determine what variables to focus on to improve profits and identify variables where their competitors are outperforming them.
+ 
+ --- 
